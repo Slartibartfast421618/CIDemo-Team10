@@ -5,9 +5,9 @@ namespace xUnitCalculator
     {
         private readonly ICalculator _calculator;
 
-        public UnitTest1(ICalculator calculator)
+        public UnitTest1()
         {
-            _calculator = calculator;
+            _calculator = new Calculator1();
         }
 
         [Fact]
